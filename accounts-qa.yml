@@ -2,7 +2,7 @@ build:
   version: "2.0"
 
 accounts:
-  message: "Welcome to MyBank Accounts API Service - QA Environment"
+  message: "Welcome to MyBank Accounts API Service - QA Environment - Use it for QA testing"
   contactDetails:
     name: "Kousik Das"
     email: "kousik.das2223@gmail.com"

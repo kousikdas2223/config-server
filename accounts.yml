@@ -5,7 +5,7 @@ accounts:
   message: "Welcome to MyBank Accounts API Service"
   contactDetails:
     name: "Kousik Das"
-    email: "{cipher}U2FsdGVkX1++a5cgCm2maLIGaXLjUP8presF31OZhmaltCA0uCifAsa71WaJIvXA"
+    email: "das.kousik2223@gmail.com"
   supportNumbers:
     - 555-555-5555
     - 666-666-6666

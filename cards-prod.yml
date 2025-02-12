@@ -2,10 +2,10 @@ build:
   version: "1.0"
 
 cards:
-  message: "Welcome to MyBank Cards API Service - Prod Environment"
+  message: "Welcome to MyBank Cards API Service - Production Environment"
   contactDetails:
     name: "Kousik Das"
-    email: "{cipher}ae7980aecc611c01571c55202e7684cc4645d29a82a4e3c02683e5c72746612cfbc9f0a234fa60c9a6210b4249092951"
+    email: "das.kousik2223@gmail.com"
   supportNumbers:
     - 222-555-5555
     - 333-666-6666

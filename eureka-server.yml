@@ -5,10 +5,12 @@ eureka:
   client:
     fetchRegistry: false   # Eureka server doesn't need to fetch the registry, only needs to serve it.
     registerWithEureka: false  # Eureka server itself doesn't register with any other Eureka instance.
-
+    service-url:
+        defaultZone: http://eureka-server:8070/eureka/
   server:
     enableSelfPreservation: false   # Disable self-preservation for local development (optional)
     evictionIntervalTimerInMs: 5000  # Control the eviction interval for stale instances
-        
-  service-url:
-    defaultZone: http://eureka-server:8070/eureka/
+  instance:
+    hostname: eureka-server
+    prefer-ip-address: true 
+
